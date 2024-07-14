@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5e9ae; /* greenary background color */
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #85ea82; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    position: relative; /* add this to position the leaf and vine patterns */
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .image-container img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #3E8E41; /* dark green text */
+  }
+  
+  .fun-facts {
+    background-color: #F7F7F7; /* light gray background */
+    padding: 20px;
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
