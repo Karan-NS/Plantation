@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px solid #468a48; /* Border added */
+        }
+
+        .contact-info h2 {
+            color: #468a48;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .contact-info .icon {
+            margin-right: 10px;
+        }
+
+        .contact-info .email-link {
+            color: #468a48;
+            text-decoration: none;
+        }
+
+        .contact-info .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .map-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .map-container iframe {
+            border: 2px solid #468a48; /* Border added */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #1f1d1d;
+            padding: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            max-width: 1500px;
+            margin: 0 auto;
+            border-bottom: 2px solid #468a48; /* Border added */
+        }
+
+        .navbar .logo {
+            width: 150px;
+            height: 150px;
+        }
+
+        .navbar h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .navbar .home-link {
+            text-decoration: none;
+            color: #0a0a0a;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .home-link i {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-content p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .footer-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-links li {
+            margin: 0 10px;
+        }
+
+        .footer-links li a {
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .footer-links li a:hover {
+            text-decoration: underline;
+        }
+
+        .home-link {
+            text-decoration: none;
+            color: #468a48;
+        }
+
+        .home-link:hover {
+            color: #3E8E41;
+        }
+
+        .fas.fa-home {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .home-link i {
+            color: #ff0400; /* red color */
+            font-size: 24px; /* larger icon size */
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 10px 0;
+            }
+
+            .logo {
+                width: 120px;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 32px;
+                text-align: center;
+            }
+
+            main {
+                margin: 20px auto;
+                padding: 10px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+
+            .footer-links li {
+                margin: 5px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 100px;
+                height: auto;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .home-link i {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-link">
+            <i class="fas fa-home" style="font-size: 30px;"></i> 
+          </a>
+        <nav class="navbar">
+          <div class="container" style="max-width: 1500px; margin: 0 auto;">
+            <div style="text-align: center;">
+              <img src="images/logo.png" class="logo" style="width: 150px; height: 150px; margin: 0 auto;">
+              <h1 style="font-size: 40px; margin-bottom: 20px;">Contact Us</h1>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p><i class="fas fa-envelope icon"></i> Email: <a href="mailto:lohithgsainaru@gmail.com" class="email-link">lohithgsainaru@gmail.com</a></p>
+            <p><i class="fas fa-map-marker-alt icon"></i> Location: 96R7+263 Kuruvanka, Arasikere, Karnataka</p>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3881.360166134789!2d76.21047587508369!3d13.390010786965146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDIzJzI0LjAiTiA3NsKwMTInNDcuMCJF!5e0!3m2!1sen!2sin!4v1720492663680!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Pomegranate Plantation Information</p>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
